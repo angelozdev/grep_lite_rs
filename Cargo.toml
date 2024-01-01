@@ -2,3 +2,8 @@
 name = "grep_lite"
 version = "0.1.0"
 edition = "2021"
+authors = ["Angelo Zambrano"]
+description = "A grep clone written in Rust"
+
+[dependencies]
+clap = { version = "4.4.12", features = ["derive"] }
